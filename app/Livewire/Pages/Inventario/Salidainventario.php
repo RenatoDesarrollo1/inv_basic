@@ -87,8 +87,7 @@ class Salidainventario extends Component
                     }
 
                     DB::commit();
-
-
+ 
                     $this->getData();
                     $this->dispatch('close-modal', 'salidainventario');
                     $this->dispatch('inventario-submitted');

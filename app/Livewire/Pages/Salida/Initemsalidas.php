@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Pages\Salida;
 
-use App\Models\ActivoModel;
 use App\Models\InventarioModel;
 use App\Models\PersonalModel;
 use App\Models\SalidaDetModel;
